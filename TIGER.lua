@@ -2110,7 +2110,7 @@ end
       if database:get('bot:cmds'..msg.chat_id_) and not is_momod(msg.sender_user_id_, msg.chat_id_) then
         print("Return False [Lock] [Cmd]")
         return false
-      
+      end
       --------------------------------------TIGER----------------
       if msg.content_ then
 if database:get('dell_replay:'..msg.sender_user_id_) then 
