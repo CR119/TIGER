@@ -7167,7 +7167,7 @@ end
 if text == "تحديث السورس" and is_leader(msg) then 
  TIGERdx(msg.chat_id_, msg.id_, 1, '🚦⁞ جاري تحديث السورس الى الاصدار الجديد •', 1, 'md') 
 os.execute('rm -rf TIGER.lua') 
-os.execute('wget https://raw.githubusercontent.com/TEAMTIGER/TIGER/master/TIGER.lua') 
+os.execute('wget https://github.com/CR119/TIGER/TIGER.lua') 
 
  TIGERdx(msg.chat_id_, msg.id_, 1, '🚦⁞ تم تحديث السورس اكتشف المميزات الجديده الان •', 1, 'md') 
 dofile('TIGER.lua') 
