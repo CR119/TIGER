@@ -7208,7 +7208,6 @@ if is_leader(msg) then
           end
         end
           
- 
         if text and text == 'اضف رد للكل' and is_sudo(msg)  then 
     TIGERdx(msg.chat_id_, msg.id_, 1, '🚦⁞ ارسل الكلمه  ', 1, 'md')
    database:set(bot_id.."add:repallt"..msg.sender_user_id_..bot_id,'yes')   
